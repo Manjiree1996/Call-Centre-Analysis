@@ -5,11 +5,11 @@ understand the total amount of time our call centre staff spends on calls in hou
 also it shows response time for customer satisfaction.
 
 # KPI's Requirement
-1.Total Number of Calls
-2.Total Call Duration in Hours
-3.Total Call Duration in Minutes
-4.Avearge Call Duration in Minute 
-5.Response Time Percentage
+1. Total Number of Calls
+2. Total Call Duration in Hours
+3. Total Call Duration in Minutes
+4. Avearge Call Duration in Minute 
+5. Response Time Percentage
 
 # Chart's Requirment
 1. Total Call by Day
