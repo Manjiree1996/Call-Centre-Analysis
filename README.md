@@ -19,3 +19,17 @@ also it shows response time for customer satisfaction.
 5. Total Calls by Sentiment
 6. Total Calls by Call Centre
 7. Grid View Dashboard
+
+# DAX Query Used
+1. Date Table = CALENDER (MIN('Call Centre_Call Centre'[Call Timestamp]), MAX('Call Centre_Call Centre'[Call Timestamp]))
+2. Day = FORMAT ('Date Table'[Date], "ddd")
+3. Total Number Of Calls = COUNT('Call Centre_Call Centre'[Id])
+4. Total Call Duration in Minutes = SUM('Call Centre_Call Centre'[Call Duration In Minutes])
+5. Total Call Duration in Hours = Total Call Duration in Minutes / 60
+6. Average Call Duration in Minutes = AVEARGE('Call Centre_Call Centre'[Call Duration In Minutes])
+7. Response Time Percentage = CALCULATE ([Total Calls],'Call Centre_Call Centre'[Response Time] = "Within SLA"|| 'Call Centre_Call Centre'[Response Time] ="Above SLA")/ [Total Calls]
+   
+ 
+
+
+
