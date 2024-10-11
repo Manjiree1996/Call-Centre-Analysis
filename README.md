@@ -17,5 +17,5 @@ also it shows response time for customer satisfaction.
 3. Top Reason for Calls
 4. Total Calls by Channel
 5. Total Calls by Sentiment
-6. Total Calls by call Centre
+6. Total Calls by Call Centre
 7. Grid View Dashboard
