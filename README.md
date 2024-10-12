@@ -1,7 +1,8 @@
 # Call-Centre-Analysis
+
 # Problem Statement
 With the help of this dashboard we would know about total number of calls received by our call centre over a specific period of time for specific state also 
-understand the total amount of time our call centre staff spends on calls in hours as well as in minutes for more granular view of call duration.
+understand the total duration of our call centre staff spends on calls in hours as well as in minutes for more granular view of call duration.
 also it shows response time for customer satisfaction.
 
 # KPI's Requirement
